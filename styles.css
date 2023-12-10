@@ -1,0 +1,45 @@
+/* style.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header, .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.parallax {
+    /* The image used */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Set a specific height */
+    min-height: 400px; 
+
+    /* Create the parallax scrolling effect */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.normal-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+section {
+    margin: auto;
+    width: 80%;
+    max-width: 800px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+/* Additional styling for links, buttons, etc., can be added here */
