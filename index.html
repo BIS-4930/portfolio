@@ -1,43 +1,71 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Your Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Your Name - Career Portfolio</h1>
+        <h1>Chase Pronger - Digital Portfolio</h1>
     </header>
     <nav>
-        <!-- Navigation links can go here -->
+        <a href="#personal-narrative">Narrative</a>
+        <a href="#resume">Resume</a>
+        <a href="#github">GitHub</a>
+        <a href="#linkedin">Linkedin</a>
     </nav>
-    <div class="parallax" style="background-image: url('header-background.jpg');">
-        <section id="personal-narrative">
-            <h2>Personal Narrative</h2>
-            <p>Your 250-word narrative goes here...</p>
-        </section>
+
+    <div class="main-content">
+        <div class="container">
+            <div class="box" id="personal-narrative">
+                <h2>Personal Narrative</h2>
+                <p>
+                    My journey through academia and professional life has been a testament to my adaptability and passion for learning. It began in the field of biochemical engineering, where I dedicated three years immersing myself in the complexities of biology and chemistry, driven by a deep fascination with the intricate processes that govern life at a molecular level. This period was marked by rigorous study and a growing appreciation for the intersection of biology and technology.
+                </p>
+                <p>
+                    However, as my interests evolved, I found myself drawn to the world of computer science. This shift represented not just a change in my academic focus but a broader expansion of my perspective on how technology could be used to solve complex problems. After a year of delving into computer science, I realized that my true calling lay in a more integrative approach. This led me to embrace the Bachelor of Interdisciplinary Studies, an educational path that I am currently pursuing with enthusiasm and dedication.
+                </p>
+                <p>
+                    Parallel to my academic endeavors, I have been working as an IT specialist at the Rochester Hills Public Library for two years. This role has not only allowed me to apply my technical skills in a real-world setting but has also been a platform for continuous learning and contributing to the community. My experience in IT has been immensely fulfilling, complementing my academic pursuits.
+                </p>
+                <p>
+                    In a unique twist, my initial majors in biochemical engineering and computer science have now become minors, alongside a minor in chemistry. This diverse academic portfolio underlines my commitment to a multidisciplinary approach, equipping me with a unique blend of skills and knowledge that I am eager to leverage in my future endeavors.
+                </p>
+            </div>
+            
+
+            <div class="box" id="resume">
+                <h2>Resume</h2>
+                <iframe src="CurrentResume.pdf" width="100%" height="500px" style="border:none;"></iframe>
+            </div>            
+
+            <div class="box" id="github">
+                <h2>GitHub Profile</h2>
+                <p>Explore my projects on <a href="https://github.com/yourusername">GitHub</a>.</p>
+            </div>
+
+            <div class="box" id="linkedin">
+                <h2>LinkedIn Profile</h2>
+                <p>Connect with me on <a href="https://www.linkedin.com/in/chase-pronger-59b6211a5/" target="_blank">LinkedIn</a> to view my professional experiences and network.</p>
+            </div>            
+        </div>
+
+        <aside id="reddit-feed">
+            <h2>Latest from Reddit r/all</h2>
+            <div class="reddit-content">
+                <ul id="redditPosts">
+                    <!-- Reddit posts will be loaded here -->
+                </ul>
+            </div>
+        </aside>
     </div>
-    <div class="normal-section">
-        <section id="resume">
-            <h2>Resume</h2>
-            <!-- Embed your resume or provide a link to download it -->
-        </section>
-    </div>
-    <div class="parallax" style="background-image: url('artifacts-background.jpg');">
-        <section id="artifacts">
-            <h2>Artifacts</h2>
-            <!-- Display or link to your artifacts here -->
-        </section>
-    </div>
-    <div class="normal-section">
-        <section id="github">
-            <h2>GitHub Profile</h2>
-            <p>Check out my projects on <a href="https://github.com/yourusername">GitHub</a>.</p>
-        </section>
-    </div>
+
     <footer>
-        <p>Contact information and other relevant details</p>
+        <p>&copy; 2023 Your Name</p>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
